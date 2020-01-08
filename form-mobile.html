@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Cat Energy </title>
+    </head>
+    <body>
+        <header class="page-header">
+            <a class="page-header__logo">
+                <img class="page-header_logo-image" src="лого" alt="Cat Energy logo" width="226" height="30">
+            </a>
+            <nav class="main-nav">
+                <button class="main-nav__toggle" type="button"> Открыть меню
+                    </button>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list">
+                        <li class="site-list__item">
+                            <a>Главная</a>
+                        </li>
+                        <li class="site-list__item">
+                            <a href="">Каталог продукции</a>
+                        </li>
+                        <li class="site-list__item site-list__item--active">
+                            <a href="">Подбор программы</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+        </header>
+        <main>
+            <h1>Подбор программы</h1>
+            <h2>Заполните анкету и мы подберем вам программу питания для вашего кота</h2>
+            <fieldset>
+                <label>Имя:*<input type="text" required></label>
+                <label>Вес(кг):*<input type="number" required></label>    
+                <label>Возраст(лет):<input type="number"></label>    
+            </fieldset>
+            <fieldset>
+                <label>Похудение<input type="radio" checked></label>
+                <label>Набор массы<input type="radio"></label>    
+                <label>Не знаю (нужен ваш совет)<input type="radio"></label> 
+            </fieldset>
+            <fieldset>
+                <legend>Контактные данные (владельца кота)</legend>
+                    <label>E-mail:*<input type="email" required></label>
+                    <label>Телефон:*<input type="" required></label>
+            </fieldset>    
+            <fieldset>
+                <legend>Комментарий</legend>
+                    <textarea>Расскажите обо всех повадказ кота</textarea>
+            </fieldset> 
+            <fieldset>
+                <legend>Дополнительно</legend>
+                    <label>Сахарозаменитель<input type="checkbox" checked></label>
+                    <label>Питьевая вода<input type="checkbox"></label>    
+                    <label>Молоко<input type="checkbox"></label> 
+                    <label>Витамины<input type="checkbox"></label> 
+            </fieldset> 
+            <input type="submit" value="Отправить заявку">
+            <p>* - Обязательные поля</p>
+        </main>
+         <footer>
+            <img src="">
+                <div class="social-network">
+                    <img src="vk">
+                    <img src="inst">
+                    <img src="facebook">
+                </div>
+                <div class="master">
+                    <h3>HTML Academy</h3>
+                    <img src="логомастера">
+                </div>
+            </footer>
+        </body>
+    </html>    
